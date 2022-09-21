@@ -10,6 +10,7 @@
 \usepackage{natbib}
 \usepackage{enumitem}
 \usepackage{setspace}
+\usepackage{graphicx}
 
 \usepackage[pagewise]{lineno}
 %\linenumbers*[1]
@@ -73,6 +74,29 @@ parametric bootstrap;
 
 \section{Introduction}
 \label{sec:intro}
+
+Suppose that the readius of a cirlce is $r$. Then it's area is
+\begin{equation}
+ \label{eq:area}
+ \pi r^2
+\end{equation}
+
+Equation~\eqred{eq:area} is something silly
+
+Sometimes I don't want an equation to be numbered such as this one:
+
+Here is a table:
+Table~\ref{tab:rv} summarizes some concepts
+\begin{table}[ht]
+ \caption{This is my first table}
+ \label{tab:rv}
+ 
+Figure~ref{fig:cars} shows the distance against the speed
+\begin{figure}
+ \centering
+ \includegraphics[width=\textwidth]{cars.pdf}
+ 
+ 
 
 The Kolmogorov-Smirnov (KS) test is one of the most popular goodness-of-fit 
 tests for comparing a sample with a hypothesized parametric distribution.
